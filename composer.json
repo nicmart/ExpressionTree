@@ -1,5 +1,5 @@
 {
-    "name": "nicmart/ExpressionTree",
+    "name": "nicmart/expression-tree",
     "type": "library",
     "description": "A simple php library to build and dump expression trees.",
     "keywords": [],
