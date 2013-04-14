@@ -1,6 +1,6 @@
 # ExpressionTree
 
-A simple php library to build and dump expression trees..
+A simple php library to build and dump expression trees.
 
 [![Build Status](https://secure.travis-ci.org/nicmart/ExpressionTree.png?branch=master)](http://travis-ci.org/nicmart/GetLocalization)
 
