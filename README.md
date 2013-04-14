@@ -4,7 +4,7 @@ A simple php library to build and dump expression trees.
 
 Documentation coming soon.
 
-[![Build Status](https://secure.travis-ci.org/nicmart/ExpressionTree.png?branch=master)](http://travis-ci.org/nicmart/GetLocalization)
+[![Build Status](https://secure.travis-ci.org/nicmart/ExpressionTree.png?branch=master)](http://travis-ci.org/nicmart/ExpressionTree)
 
 ## Install
 
