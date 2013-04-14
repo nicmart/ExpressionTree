@@ -15,7 +15,7 @@ Just create a composer.json file for your project:
 ```JSON
 {
     "require": {
-        "nicmart/ExpressionTree": "dev-master"
+        "nicmart/expression-tree": "dev-master"
     }
 }
 ```
