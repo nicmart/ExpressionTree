@@ -66,6 +66,15 @@ interface NodeInterface
     public function getChildren();
 
     /**
+     * Replace the children set with the given one
+     *
+     * @param array[NodeInterface] $children
+     *
+     * @return mixed
+     */
+    public function setChildren(array $children);
+
+    /**
      * Return true if the node has no children, false otherwise
      *
      * @return bool
