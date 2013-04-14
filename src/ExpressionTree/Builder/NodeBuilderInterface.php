@@ -36,6 +36,15 @@ interface NodeBuilderInterface
     public function getNode();
 
     /**
+     * Set the value of the underlaying node
+     *
+     * @param mixed $value
+     *
+     * @return NodebuilderInterface The current instance
+     */
+    public function value($value);
+
+    /**
      * Add a leaf to the node
      *
      * @param mixed $value The value of the leaf node
@@ -47,11 +56,11 @@ interface NodeBuilderInterface
     /**
      * Add several leafs to the node
      *
-     * @param array $values The values of the leafs
+     * @param $value, ... An arbitrary long list of values
      *
      * @return NodeBuilderInterface The current instance
      */
-    public function leafs(array $values);
+    public function leafs($value);
 
     /**
      * Add a child to the node enter in its scope
@@ -68,5 +77,15 @@ interface NodeBuilderInterface
      * @return null|NodeBuilderInterface A NodeBuilderInterface instanced linked to the parent node
      */
     public function end();
+
+    /**
+     * Return a node instance set with the given value. Implementation can follow their own logic
+     * in choosing the NodeInterface implmentation taking into account the value
+     *
+     * @param mixed $value
+     *
+     * @return NodeInterface
+     */
+    public function nodeInstanceByValue($value = null);
 }
 
