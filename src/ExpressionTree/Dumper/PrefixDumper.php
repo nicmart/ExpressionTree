@@ -10,7 +10,7 @@
 
 namespace ExpressionTree\Dumper;
 
-use ExpressionTree\Tree\NodeInterface;
+use Tree\Node\NodeInterface;
 
 /**
  * Dumps a tree into a prefix expression representation.

@@ -9,7 +9,7 @@
  */
 namespace ExpressionTree\Test\Dumper;
 
-use ExpressionTree\Tree\Node;
+use Tree\Node\Node;
 use ExpressionTree\Dumper\InfixDumper;
 
 /**

@@ -10,7 +10,7 @@
 
 namespace ExpressionTree\Dumper;
 
-use ExpressionTree\Tree\NodeInterface;
+use Tree\Node\NodeInterface;
 
 /**
  * Abstract base class for Expression Dumpers

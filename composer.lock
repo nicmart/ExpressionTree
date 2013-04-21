@@ -1,0 +1,58 @@
+{
+    "hash": "19ff41f69ecffb5a53893a44ac5a9198",
+    "packages": [
+        {
+            "name": "nicmart/tree",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicmart/Tree.git",
+                "reference": "fe641b651ba07423bda6f0c279cdbc14af291f94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicmart/Tree/zipball/fe641b651ba07423bda6f0c279cdbc14af291f94",
+                "reference": "fe641b651ba07423bda6f0c279cdbc14af291f94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Tree": "src/",
+                    "Tree\\Test": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolò Martini",
+                    "email": "nicmartnic@gmail.com"
+                }
+            ],
+            "description": "A basic but flexible php tree data structure and a fluent tree builder implementation.",
+            "time": "2013-04-21 17:56:00"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nicmart/tree": 20
+    },
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}

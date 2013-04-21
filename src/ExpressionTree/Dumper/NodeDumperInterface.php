@@ -9,7 +9,7 @@
  */
 namespace ExpressionTree\Dumper;
 
-use ExpressionTree\Tree\NodeInterface;
+use Tree\Node\NodeInterface;
 /**
  * Interface for dumping a tree to a string representation
  *
