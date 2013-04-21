@@ -22,10 +22,10 @@ In this case the expression tree is
       / \
      1   3
 ```
-In such a tree leaf node are numbers and tree nodes are operators.
+In such a tree leaf nodes are numbers and tree nodes are operators.
 
 ## Building the tree
-This library does not offer (at least now) an expression parser, and it is supposed we already have the expression in the
+This library does not offer (at least now) an expression parser, and it is supposed you already have the expression in the
 tree format.
 
 Since this library depends on [nicmart/Tree](https://github.com/nicmart/ExpressionTree) library, 
