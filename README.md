@@ -28,7 +28,7 @@ In such a tree leaf nodes are numbers and tree nodes are operators.
 This library does not offer (at least now) an expression parser, and it is supposed you already have the expression in the
 tree format.
 
-Since this library depends on [nicmart/Tree](https://github.com/nicmart/ExpressionTree) library, 
+Since this library depends on [nicmart/Tree](https://github.com/nicmart/Tree) library, 
 you can build the tree with its Builder:
 ```php
 <?php
